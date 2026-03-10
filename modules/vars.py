@@ -17,7 +17,7 @@ MONGO_URL = environ.get("MONGO_URL", "")
 DATABASE_NAME = environ.get("DATABASE_NAME", "eagle")
 
 # Owner and Admin Configuration
-OWNER_ID = int(environ.get("OWNER_ID", "7752941299"))  # Use OWNER as fallback
+OWNER_ID = int(environ.get("OWNER_ID", "6966002582"))  # Use OWNER as fallback
 ADMINS = [OWNER_ID]  # Can be extended via environment
   
 #WEBHOOK = True  # Don't change this
@@ -70,4 +70,5 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
