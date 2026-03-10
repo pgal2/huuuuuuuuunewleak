@@ -1,0 +1,2 @@
+-r sainibots.txt
+setuptools>=70.0.0
